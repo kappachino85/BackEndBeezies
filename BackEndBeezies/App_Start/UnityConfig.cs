@@ -19,7 +19,7 @@ namespace BackEndBeezies.Web
             // register all your components with the container here
             // it is NOT necessary to register your controllers
 
-            container.RegisterType<IBaseService, BaseService>();
+            container.RegisterType<IBaseService, BaseService>(); 
             container.RegisterType<IErrorLogService, ErrorLogService>();
             container.RegisterType<IUserService, UserService>();
             container.RegisterType<IMemberProfileService, MemberProfileService>();
